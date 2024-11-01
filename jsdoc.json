@@ -1,0 +1,10 @@
+{
+    "source": {
+      "include": ["./src/composables", "./src/api"],
+      "includePattern": "\\.js$",
+      "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+      "destination": "./docs"
+    }
+}
